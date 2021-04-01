@@ -1,0 +1,698 @@
+@import url(default.css);
+@import url(bootstrap.min.css);
+@import url(fontawesome-all.min.css);
+@import url(material-design-iconic-font.min.css);
+@import url(owl.carousel.css);
+@import url(responsive.css);
+/*
+Tamplate Name: Swarna Bangladesh;
+*/
+
+/*==========
+CSS Index
+
+*Base CSS
+*Header CSS
+*Mainmanu CSS 
+*Section Title CSS 
+*Service CSS 
+*Team CSS 
+*Planing CSS
+*Footer CSS 
+============*/
+
+/*==========
+Base CSS 
+============ */
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+body{
+    font-weight: 500;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #373737;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-padding{
+    padding: 110px 0;
+}
+.padding-0{
+    padding: 0;
+}
+.padding-top-40{
+    padding-top: 40px;
+}
+.padding-bottom-0{
+    padding-bottom: 0;
+}
+.long-text h3 {
+    margin-right: 300px;
+}
+
+/*==========
+Header CSS 
+============ */
+.header-aria {
+    padding: 20px 0;
+    overflow: hidden;
+    
+}
+
+.logo a img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.boxed-button {
+    font-size: 15px;
+    text-decoration: none;
+    background: #999;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+a.boxed-button:hover {
+    color: #fff;
+}
+.header-top {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.hero-section {
+    background-image: url(../img/baby.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    text-align: center;
+    color: #fff;
+    padding: 300px 0;
+    
+}
+
+.hero-section h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.hero-section p {
+    font-size: 30px;
+    color: yellow;
+    font-weight: 600;
+    line-height: 40px;
+}
+.hero-2{
+    height: 400px;
+    width: 100%;
+}
+.section-title-2 p.lead {
+    margin-top: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.service-header {
+    text-align: justify;
+    font-weight: 500;
+}
+.service-body p {
+    text-align: justify;
+    font-weight: 500;
+}
+.long-text p {
+    text-align: justify;
+    font-weight: 500;
+}
+.goal-text p {
+    font-weight: 500;
+}
+
+/*==========
+Mainmanu CSS 
+============ */
+/*** HEADER ARIA CSS START ***/
+.header-top {
+    width: 100%;
+    z-index: 999;
+    position: relative;
+   
+}
+
+.is-sticky .header-top:after{
+    position: absolute;
+    background: #333;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    color: #fff;
+    z-index: -1;
+}
+.logo a {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 26px;
+    display: inline-block;
+}
+
+.header-top:after, .main-manu ul li a, .logo img{transition: 4s;}
+.main-manu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-manu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 27px;
+    transition: 4s;
+    display: inline-block;
+}
+.main-manu ul li.active:after {
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background: #c7c4ba;
+    content: "";
+    position: absolute;
+}
+
+.main-manu ul li {
+    position: relative;
+    display: block;
+}
+.navbar{
+    position: relative;
+}
+button .navbar-toggler{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-bottom{
+    padding: 200px 0;
+    text-align: center;
+}
+.hero-section {
+    background-image: url(../img/baby.jpg);
+    background-size: cover;
+    background-position: center top;
+    margin-top: -80px;
+}
+.wellcome-text h1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.wellcome-text h1{
+    background-image: url(../img/hero-text-before.png)
+}
+
+.button-section {
+    padding-top: 33px;
+}
+
+
+a.wc-button {
+    position: relative;
+    z-index: 1;
+    padding: 8px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-manu {
+   position: relative; 
+}
+
+.manu-social-link {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.manu-social-link a {
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+}
+.hero-section {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    content: '';
+    opacity: .6;
+}
+
+/*** HEADER ARIA CSS END ***/
+
+/*==========
+Background image CSS 
+============ */
+.single-service-box-bg-1{background-image: url(../img/logo-2.jpg)}
+.single-service-box-bg-2{background-image: url(../img/Education.jpg)}
+.single-service-box-bg-3{background-image: url(../img/nutrition.jpg)}
+.single-service-box-bg-4{background-image: url(../img/tretment.jpg)}
+.single-service-box-bg-5{background-image: url(../img/Traning.jpg)}
+.single-service-box-bg-6{background-image: url(../img/delivary-1.jpg)}
+.single-service-box-bg-6{background-image: url(../img/mother-child.jpg)}
+.contact-us{background-image: url(../img/baby.jpg)}
+.cta-area{background-image: url(../img/coll-to-action.jpg)}
+
+/*==========
+Service CSS 
+============ */
+
+.single-service-box-bg {
+    height: 300px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.service-header h4 {
+    padding-top: 20px;
+}
+
+.long-manu ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.speacial-1 ul li a {
+    color: #333;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.speacial ul li {
+    list-style: none;
+}
+
+.speacial ul li a {
+    color: #333;
+    text-decoration: none;
+    line-height: 1.7;
+}
+/*==========
+Team CSS 
+============ */
+
+.single-team-box img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+}
+
+.single-team-box h4 {
+    font-size: 22px;
+}
+
+.single-team-box h4 span {
+    display: block;
+    font-weight: 400;
+    color: #373737;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.single-team-box {
+    background-color: #ddd;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.single-team-box h4,.single-team-box p {
+    padding: 10px;
+}
+.single-team-box ul.social-links li {
+    width: 14%;
+}
+.single-team-box ul.social-links li a i{
+    color: #999;
+    font-size: 25px;
+}
+.single-team-box ul.social-links li:hover a{
+    color: aqua;
+}
+
+.single-team-box {
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+ul.social-links {
+    position: absolute;
+    left: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
+.section-title-2 h3 {
+    padding: 20px 0;
+    font-size: 40px;
+}
+.section-title p {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.section-title h2 {
+    font-size: 41px;
+}
+/*==========
+Planing CSS 
+============ */
+.planing-box img {
+    height: 260px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.planing-box h4 {
+    font-size: 20px;
+}
+
+.planing-box p {
+    color: #888;
+}
+
+.planing-box p:hover {
+    color: #333;
+}
+
+/*==========
+Coll to action CSS 
+============ */
+.cta-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    z-index: -1;
+    opacity: .6;
+    background: #333;
+}
+.cta-area{
+    position: relative;
+    z-index: 1;
+    background-color: aqua;
+    color: #fff;
+}
+.cta-area {
+    padding: 65px 0;
+    background: #f8f8f8;
+}
+
+.cta-area h3 {
+    padding-top: 7px;
+}
+
+/*==========
+Footer CSS 
+============ */
+
+.footer-aria {
+    background: #fdfdfd;
+    padding: 70px 0;
+    
+}
+
+.footer-aria h4 {
+    font-size: 20px;
+}
+
+.footer-aria, .footer-aria a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.footer-aria ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+}
+input:focus{
+    outline:inherit;
+}
+
+
+ul.social-links li {
+    display: inline-block;
+    width: 30%;
+}
+.email-suscribe-form input {
+    width: 40%;
+    padding: 5px;
+    border: 2px solid #ddd;
+}
+
+.email-suscribe-form input[type="submit"] {margin-top: 10px;background: lightgrey;border: 2px solid #fff;cursor: pointer;}
+
+.coppyright-areia {
+    background: #ddd;
+    padding: 15px 0;
+}
+
+
+/* RESET STYLES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --level-1: #8dccad;
+  --level-2: #f5cc7f;
+  --level-3: #7b9fe0;
+  --level-4: #f27c8d;
+  --black: black;
+}
+
+
+
+ol {
+  list-style: none;
+}
+
+
+.rectangle {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    border:1px solid #333;
+}
+
+
+/* LEVEL-1 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-1 {
+  width: 50%;
+  margin: 0 auto 40px;
+  background: var(--level-1);
+}
+
+.level-1::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 41px;
+    background: var(--black);
+}
+p.level-1.rectangle.spacial.level-1::before{
+    background: none;
+}
+p.level-1.rectangle.spacial:after {
+    position: absolute;
+    left: 283px;
+    top: -23px;
+    height: 22px;
+    width: 2px;
+    background: #333;
+    content: '';
+}
+p.level-1.rectangle.spacial:after {
+    background: none;
+}
+p.level-1.rectangle.spacial {
+    margin-top: -26px;
+}
+
+/* LEVEL-2 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-2-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -4%;
+}
+
+.level-2-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 246px;
+    width: 864px;
+    height: 2px;
+    background: #333;
+}
+
+.level-2-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    width: 744px;
+    left: 224px;
+    height: 2px;
+    background: #333;
+}
+
+.level-2-wrapper li {
+  position: relative;
+}
+
+.level-2-wrapper > li::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 20px;
+    background: var(--black);
+}
+.level-2 {
+  width: 70%;
+  margin: 0 auto 40px;
+  background: var(--level-2);
+}
+
+.level-2-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    width: 744px;
+    left: 224px;
+    height: 2px;
+    background: #333;
+}
+.spacial.level-2::before {
+    background: none;
+}
+
+.level-2::after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, -50%);
+  width: 20px;
+  height: 2px;
+  background: var(--black);
+}
+
+
+
+
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 700px) {
+  .rectangle {
+    padding: 20px 10px;
+  }
+
+  .level-1,
+  .level-2 {
+    width: 100%;
+  }
+
+  .level-1 {
+    margin-bottom: 20px;
+  }
+
+  .level-1::before,
+  .level-2-wrapper > li::before {
+    display: none;
+  }
+  
+  .level-2-wrapper,
+  .level-2-wrapper::after,
+  .level-2::after {
+    display: block;
+  }
+
+  .level-2-wrapper {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .level-2-wrapper::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+
+  .level-2-wrapper > li:not(:first-child) {
+    margin-top: 50px;
+  }
+}
+
